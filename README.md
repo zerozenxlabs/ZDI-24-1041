@@ -1,4 +1,4 @@
-# ZDI-24-1041 - CVE-2023-7261
+# CVE-2023-7261
 Google Chrome Updater DosDevices Local Privilege Escalation Vulnerability
 
 # Details:
@@ -12,6 +12,5 @@ An attacker can leverage this vulnerability to escalate privileges and execute a
 
 # References:
 
-- https://www.zerodayinitiative.com/advisories/ZDI-24-1041/
 - https://issues.chromium.org/issues/40064602
 - https://zerozenx.com/
