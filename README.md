@@ -1,7 +1,7 @@
 # ZDI-24-1041 - CVE-2023-7261
 Google Chrome Updater DosDevices Local Privilege Escalation Vulnerability
 
-#Details:
+# Details:
 
 This vulnerability allows local attackers to escalate privileges on affected installations of Google Chrome. 
 An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.
@@ -10,7 +10,7 @@ An attacker must first obtain the ability to execute low-privileged code on the 
 The specific flaw exists within the update mechanism. By creating a DOS device redirection, an attacker can abuse the update mechanism to launch an executable from an untrusted location. 
 An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.
 
-#references:
+# References:
 
 - https://www.zerodayinitiative.com/advisories/ZDI-24-1041/
 - https://issues.chromium.org/issues/40064602
